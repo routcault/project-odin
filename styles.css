@@ -40,15 +40,12 @@ a {
     background-color: #1f2937;
     display:flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center; 
-    flex-grow:1;
-    min-width:0;
 }
 
 .first-text {
-   padding:25px;
-   min-width: 0;
+   padding-bottom:35px;
 }
 
 

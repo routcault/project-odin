@@ -19,4 +19,10 @@ ul {
 li {
     font-size:18px;
     color: #E5E7EB;
+    margin:8px;
+    list-style-type: none;
+}
+
+a {
+    color: #E5E7EB;
 }

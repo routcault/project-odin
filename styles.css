@@ -2,6 +2,8 @@ body {
     margin:0;
     display:flex;
     flex-direction:column;
+    align-content:center;
+    justify-content: center;
 }
 
 /*HEADER*/
@@ -41,14 +43,13 @@ a {
     display:flex;
     flex-direction:row;
     flex-basis: 0;
-    padding: 50px 150px;
     align-items: center;
-    
+    padding: 50px 100px;
 }
 
 .first-text {
     padding-right: inherit;
-    
+
 }
 
 
@@ -64,6 +65,41 @@ button {
 
 .first-image {
     justify-content: center;
+    padding-left:inherit;
+
+}
+/*FIRST SECTION*/
+
+/*IMAGES*/
+
+.images {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+/*IMAGES*/
+
+/*QUOTE*/
+
+.quote {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0 450px;
+
+}
+
+/*QUOTE*/
+
+/*LAST*/
+
+.last {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
 
 }
 

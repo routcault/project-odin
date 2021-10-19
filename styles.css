@@ -42,10 +42,12 @@ a {
     flex-direction:row;
     justify-content: space-around;
     align-items: center; 
+    flex-basis:0;
 }
 
 .first-text {
-   padding-bottom:35px;
+
+   flex-basis: 0;
 }
 
 
